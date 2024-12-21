@@ -1,0 +1,1 @@
+/usr/bin/c++ -m64 -O3 -DNDEBUG -m64 -Wl,--dependency-file=CMakeFiles/example.dir/link.d CMakeFiles/example.dir/src/example.cpp.o -o example   -L/home/ahsanu/.conan2/p/b/hello925d264b20851/p/lib  -Wl,-rpath,/home/ahsanu/.conan2/p/b/hello925d264b20851/p/lib /home/ahsanu/.conan2/p/b/hello925d264b20851/p/lib/libhello.a
