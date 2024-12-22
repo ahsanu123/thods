@@ -1,0 +1,6 @@
+[
+{
+  "directory": "/home/ahsanu/project/2025/thods/cplusplus/xmake/cli",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-I", "/home/ahsanu/.xmake/packages/a/armadillo/11.2.3/cb09550613c5473f9fef79cc4f460086/include", "-I", "/home/ahsanu/.xmake/packages/s/superlu/v7.0.0/478fabe7f2e0469e86a30a2928653fe1/include", "-I", "/home/ahsanu/.xmake/packages/o/openblas/0.3.28/35195c25252e4b0886173b6467859593/include", "-fopenmp", "-DNDEBUG", "-o", "build/.objs/cli/linux/x86_64/release/src/main.cpp.o", "src/main.cpp"],
+  "file": "src/main.cpp"
+}]

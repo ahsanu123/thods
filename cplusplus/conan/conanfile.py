@@ -33,6 +33,11 @@ class ConanSetting(NamedTuple):
 
 type ConanSettingType = tuple[str]
 
+type BooleanTuple = tuple[bool, bool]
+type OptionType = dict[str, BooleanTuple]
+
+op: OptionType = {"shared": (True, False)}
+
 
 class helloRecipe(ConanFile):
     name = "hello"
@@ -63,6 +68,7 @@ class helloRecipe(ConanFile):
             self.options.rm_safe("fPIC")  # type: ignore
 
     def layout(self):
+        self.folders.source
         cmake_layout(self)
 
     def generate(self):
